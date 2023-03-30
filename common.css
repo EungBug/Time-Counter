@@ -1,0 +1,33 @@
+body {
+  --color-background: #222;
+  --color-background-paper: #292929;
+  --color-font-main: #ebebeb;
+  --color-font-sub: #909090;
+  --color-border: #313131;
+
+  font-family: 'Jost', sans-serif;
+  background-color: var(--color-background);
+  font-weight: 600;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  background-color: var(--color-background-paper);
+  padding: 32px 72px;
+  box-sizing: border-box;
+}
+
+.value {
+  color: var(--color-font-main);
+  font-size: 64px;
+  line-height: 125%;
+}
+
+.caption {
+  color: var(--color-font-sub);
+  font-size: 22px;
+  line-height: 150%;
+}
